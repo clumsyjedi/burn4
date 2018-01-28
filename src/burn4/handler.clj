@@ -1,9 +1,9 @@
-(ns burn3.handler
+(ns burn4.handler
   (:gen-class)
   (:require [compojure.core :refer :all]
             [compojure.route :as route]
             [ring.middleware.defaults :refer [wrap-defaults site-defaults]]
-            [burn3.index :as index]
+            [burn4.index :as index]
             [ring.adapter.jetty :refer [run-jetty]]))
 
 (defroutes app-routes

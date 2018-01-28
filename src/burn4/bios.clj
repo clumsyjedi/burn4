@@ -1,4 +1,4 @@
-(ns burn3.bios
+(ns burn4.bios
   (:require [stencil.core :as must]
             [clojure.java.io :as io]))
 
