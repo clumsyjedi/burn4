@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Burn by Night III --- Goulburn NSW Aus --- Mar 31st - Apr 2nd 2017</title>
+    <meta property="fb:pages" content="297178964069724" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+    </style>
+  </head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidenav/menu -->
+<nav class="w3-sidenav w3-white w3-animate-left w3-center w3-text-grey w3-collapse w3-top" style="z-index:3;width:300px;font-weight:bold" id="mySidenav"><br>
+  <h3 class="w3-padding-64"><b>Burn By Night III<br>31st Mar - 2nd Apr 2017</b></h3>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-padding w3-hide-large">CLOSE</a>
+  <a href="#" onclick="w3_close()" class="w3-padding">line-up</a> 
+  <a href="#details" onclick="w3_close()" class="w3-padding">details</a> 
+  <a href="#tickets" onclick="w3_close()" class="w3-padding">tickets</a>
+  <a href="#bring" onclick="w3_close()" class="w3-padding">what to bring</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Burn by Night III</span>
+  <a href="javascript:void(0)" class="w3-right w3-btn w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+  
+  <!-- Photo grid -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="lineup">
+      <h4><b>2017 line up</b></h4>
+  </div>
+  {{#rows}}
+  <div class="w3-row">
+  {{#acts}}
+  <div class="w3-{{width}}third">
+      <img src="/images/{{image}}.jpg" style="width:100%" onclick="onClick(this)" alt="{{bio}}" data-center="{{center}}">
+      <h2>{{name}}</h2>
+  </div>
+  {{/acts}}
+  </div>
+  {{/rows}}
+
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black w3-padding-0" onclick="this.style.display='none'">
+    <span class="w3-closebtn w3-text-white w3-opacity w3-hover-opacity-off w3-xxlarge w3-container w3-display-topright">×</span>
+    <div id="inner01" class="w3-modal-content w3-animate-zoom w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="details">
+    <h4><b>details</b></h4>
+    <div class="w3-content w3-justify" style="max-width:600px">
+
+        <p>31st Mar - 2nd Apr 2017</p>
+        <p>The Yurtfarm</p>
+        <p>1688 Range Rd, Goulburn, New South Wales 2580</p>
+        <p></p>
+
+    <p>For those who are new to this, let me fill you in on how this works. Burn By Night is Australia's most exclusive festival, providing a smorgasbord of live music under the Goulburn night sky, for a fraction of the cost of one of those fancy pants city festivals. If you're seeing this post, that means you made the cut and are officially invited.</p>
+</div>
+</div>
+  <div class="w3-row">
+      <div class="w3-half">
+          <img src="/images/yurt.jpg" alt="Yurts Baby!!" width="100%">
+    </div>
+    <div class="w3-half">
+        <img src="/images/yurt2.jpg" alt="Yurts Baby!!"  width="100%">
+    </div>
+</div>
+
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="details">
+    <div class="w3-content w3-justify" style="max-width:600px">
+    
+
+    <p>The festival takes place on the beautiful Goulburn Yurt Farm. By day this place is a hobby farm aimed at kids so the festival is kid and family friendly. If you're curious what a Yurt Farm is, well, I'm glad you asked. It's one of those Smurf houses in the title picture of this FB event. That's right - if you get in quick you can secure one of these perfect little cottages for yourself. Some have wee kitchens, some have working fireplaces, all of them are fantastic.</p>
+
+    <p>An average yurt sleeps around 6 adults, and spaces are limited, so please get in fast if you want to secure a yurt berth.</p>
+
+    <p>And hey if Smurfs freak you out, you can pay less to sleep in your own tent or campervan. Camping spaces are UNLIMITED!!!</p>
+
+
+  </div>
+
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="tickets">
+      <h4><b>tickets</b></h4>
+      <div class="w3-content w3-justify" style="max-width:600px">
+          <p>Tickets are available on a per-person per-night basis, and can be purchased <a href="https://www.eventbrite.co.uk/e/burn-by-night-2017-tickets-31178990199">here</a></p>
+
+          <p>Prices are...</p>
+
+          <ol>
+              <li>Yurt: $40 per person per night
+              <li>Camping $30 per person per night
+              <li>Kids under 12 are free :)
+              <li>Musicians are free
+          </ol>
+      </div>
+  </div>
+
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="bring">
+      <h4><b>what to bring</b></h4>
+      <div class="w3-content w3-justify" style="max-width:600px">
+
+          <p>Hey everyone, see below a list of useful information on essentials to bring and details of some of the commodities the farm has to offer:</p>
+
+          <p>What to bring:</p>
+          <ol>
+              <li>Bring your tickets. <a href="https://www.eventbrite.co.uk/e/burn-by-night-2017-tickets-31178990199">You buy your tickets here</a> and you can print them out from the eventbrite website. If you forget your tickets, it's ok. The kid on the door will have your name on hand. If you don't buy ticket's you'll have to buy them at the gate, so you'll need cash, we cant take cards at the gate. It will make your entry (fnar) go so much smoother if you buy your tickets in advance and print them out.</li>
+              <li>Water.</li>
+              <li>Food. You have to eat dude. So bring food for yourself for the weekend. It's really nice if you can bring something to share as well, people get a kick out of that. On Saturday there will be some hot dogs for sale thanks to the hawt dawgs from Gypsy Journey, but they'll disappear fast I guarantee.</li>
+              <li>Esky and ice.  Please bring lots of ice (there're no fridges and electricity)</li>
+              <li>Torch/lamps</li>
+              <li>Camping bedding.</li>
+              <li>Festival (rain) poncho (just in case)</li>
+              <li>Toilet paper. Oh my god, how important is this? Imagine if you forgot to bring toilet paper and you had to go tent to tent asking to borrow a few squares from each tent. That would be mortifying. Go put the toilet paper in the back of the car now while you think about it.</li>
+              <li>A tent if you require one. If you didn't book and pay for a yurt already then you require one.</li>
+              <li>Wellies. Or stilletos. Your call. It's a farm though.</li>
+              <li>Insect repellent</li>
+              <li>First aid supplies</li>
+              <li>Something warm</li>
+              <li>Bin bags. We ask that everyone leaves the farm as we found it. Please take as much of your own rubbish away with you.</li>
+              <li>Camping chairs and rugs if you require</li>
+
+              <p>There are a few saucepans and utensils in the little camping kitchen so you may find something to cook with or in. </p>
+
+              <p>There will be open fires, a BBQ and pizza ovens which you can use to cook on and in.</p>
+
+              <p>I can't stress enough that you will not want to leave the yurt village to get supplies from town due to the 30 min drive, and the extreme awesomeness of the venue and talent, so ensure you bring enough food and drink to last you the weekend.</p>
+
+          </ol>
+      </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidenav
+function w3_open() {
+    document.getElementById("mySidenav").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidenav").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+function addClass (e, className) {
+  var cname = e.className;
+  cname += ' ' + className;
+  e.className = cname;
+}
+
+function removeClass (e, className) {
+  var r = new RegExp(className, 'g')
+  var cname = e.className;
+  e.className = cname.replace(r, '');
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  var content = document.querySelector('.w3-modal-content');
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  if (element.dataset.center === 'true') {
+    addClass(content, 'w3-center');
+  } else {
+    removeClass(content, 'w3-center');
+  }
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
+
