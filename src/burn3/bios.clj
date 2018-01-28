@@ -39,23 +39,8 @@
 
 (defn rows []
   (shuffle (map (fn [acts]
-                  {:acts (shuffle acts)}) 
-                [[(act :sametribe)
-                  (act :street)]
-                 [(act :nick)
-                  (act :laser)]
-                 [(act :matt)
-                  (act :bamboo)]
-                 [(act :elisabeth)
-                  (act :balaclava)]
-                 [(act :dani)
-                  (act :tony)
-                  (act :nathan)]
-                 [(act :drt)
-                  (act :what8was4)
-                  (act :october)]
-                 [(act :rocky)
-                  (act :jasmine)]
-                 [(act :cloudbird)
-                  (act :chesher)]])))
+                  {:acts (shuffle acts)})
+                [[(act :matt)
+                  (act :cloudbird)
+                  (act :balaclava)]])))
 
