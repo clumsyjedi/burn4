@@ -41,6 +41,9 @@
   (shuffle (map (fn [acts]
                   {:acts (shuffle acts)})
                 [[(act :matt)
-                  (act :cloudbird)
-                  (act :balaclava)]])))
+                  (act :balaclava)]
+                 [(act :cloudbird)
+                  (act :dani)]
+                 [(act :october)
+                   (act :bamboo)]])))
 
