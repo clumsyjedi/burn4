@@ -2,7 +2,9 @@
   (:require [stencil.core :as must]
             [clojure.java.io :as io]))
 
-(def raw {:sametribe {:name "Sally King and SameTribe"
+(def raw {:hammer    {:name "Hammer Switch"
+                      :double? true}
+          :sametribe {:name "Sally King and SameTribe"
                       :double? true}
           :cloudbird {:name "Cloud Bird"
                       :double? true}
@@ -45,5 +47,7 @@
                  [(act :cloudbird)
                   (act :dani)]
                  [(act :october)
-                   (act :bamboo)]])))
+                  (act :bamboo)]
+                 [(act :hammer)
+                  (act :tony)]])))
 
