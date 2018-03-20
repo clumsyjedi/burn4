@@ -16,6 +16,7 @@
           :stump     {:name "The Stump Jumpers"
                       :double? true}
           :laser     {:name "LASER"}
+          :pete      {:name "Peter Fenwick"}
           :justine   {:name "Justine Wahlin"}
           })
 
@@ -40,5 +41,5 @@
                  [(act :hammer)
                   (act :tony)]
                  [(act :stump)
-                  (act :laser)]])))
+                  (act :pete)]])))
 
