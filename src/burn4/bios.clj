@@ -4,30 +4,18 @@
 
 (def raw {:hammer    {:name "Hammer Switch"
                       :double? true}
-          :sametribe {:name "Sally King and SameTribe"
-                      :double? true}
           :cloudbird {:name "Cloud Bird"
                       :double? true}
           :matt      {:name "Matt Thomson"}
           :bamboo    {:name "Mr Bamboo"
                       :double? true}
-          :elisabeth {:name "Elizabeth Robinson"}
-          :drt       {:name "Dr. T"}
-          :dani      {:name "Dani Karis"}
           :tony      {:name "Tony Wilson"}
-          :nathan    {:name "Mr Harvey"}
           :balaclava {:name "Balaclava Weather"
                       :double? true}
-          :october   {:name "Born in October"}
-          :what8was4 {:name "WHAT8WAS4"}
           :jasmine   {:name "Jasmine Beth"}
-          :rocky     {:name "The Rocky Hillbillies"
+          :stump     {:name "The Stump Jumpers"
                       :double? true}
           :laser     {:name "LASER"}
-          :street    {:name "Street Party"}
-          :chesher   {:name "John Chesher"}
-          :nick      {:name "Nick Rheinberger"
-                      :double? true}
           })
 
 (defn act [id]
@@ -45,9 +33,11 @@
                 [[(act :matt)
                   (act :balaclava)]
                  [(act :cloudbird)
-                  (act :dani)]
+                  (act :jasmine)]
                  [(act :october)
                   (act :bamboo)]
                  [(act :hammer)
-                  (act :tony)]])))
+                  (act :tony)]
+                 [(act :stump)
+                  (act :laser)]])))
 
