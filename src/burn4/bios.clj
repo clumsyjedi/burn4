@@ -16,6 +16,7 @@
           :stump     {:name "The Stump Jumpers"
                       :double? true}
           :laser     {:name "LASER"}
+          :justine   {:name "Justine Wahlin"}
           })
 
 (defn act [id]
@@ -34,7 +35,7 @@
                   (act :balaclava)]
                  [(act :cloudbird)
                   (act :jasmine)]
-                 [(act :october)
+                 [(act :justine)
                   (act :bamboo)]
                  [(act :hammer)
                   (act :tony)]
